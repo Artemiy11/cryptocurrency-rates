@@ -1,6 +1,6 @@
 
 const Profile = () => {
-    return <h1>This is profile page</h1>;
+    return <h1 className={'centeredText'}>This is Profile page</h1>;
 }
 
 export default Profile;

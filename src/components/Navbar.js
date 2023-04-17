@@ -3,7 +3,7 @@ import styles from "../styles/Navbar.module.css";
 
 const Navbar = () => {
   return (
-      <footer className={styles.navbar}>
+      <nav className={styles.navbar}>
         <Link className={styles.links} href="/">
           Home
         </Link>
@@ -13,7 +13,7 @@ const Navbar = () => {
         <Link className={styles.links} href="/coins">
           Coins
         </Link>
-      </footer>
+      </nav>
   );
 };
 
