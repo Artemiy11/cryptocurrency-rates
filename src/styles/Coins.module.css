@@ -1,0 +1,46 @@
+.container {
+    padding: 30px;
+}
+
+.title {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.coins {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.name {
+    font-weight: 600;
+    font-size: 18px;
+    color: #000;
+}
+
+.price {
+    color: #000;
+}
+
+.coin {
+    width: calc(20% - 25px);
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link {
+    width: 100%;
+    height: 100%;
+}
+
+.content {
+    height: 100%;
+    display: grid;
+    place-items: center;
+}

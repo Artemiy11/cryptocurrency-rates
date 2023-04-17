@@ -1,0 +1,15 @@
+.container {
+    padding: 2rem;
+}
+
+.item {
+    margin-top: 7px;
+    color: black;
+}
+
+.name {
+    color: black;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
